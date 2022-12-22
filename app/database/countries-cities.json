@@ -1,0 +1,658 @@
+[
+  {
+      "id": 6,
+      "name": "Andorra",
+      "region": "Europe",
+      "iso3": "AD ",
+      "capital": "Andorra la Vella",
+      "cities": [
+          {
+              "id": 1,
+              "name": "Andorra la Vella",
+              "countryCode": "AD",
+              "latitude": "42.50779000",
+              "longitude": "1.52109000"
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "name": "Albania",
+      "region": "Europe",
+      "iso3": "AL ",
+      "capital": "Tirana",
+      "cities": [
+          {
+              "id": 271,
+              "name": "Tirana",
+              "countryCode": "AL",
+              "latitude": "41.32750000",
+              "longitude": "19.81889000"
+          }
+      ]
+  },
+  {
+      "id": 15,
+      "name": "Austria",
+      "region": "Europe",
+      "iso3": "AT ",
+      "capital": "Vienna",
+      "cities": [
+          {
+              "id": 3681,
+              "name": "Vienna",
+              "countryCode": "AT",
+              "latitude": "48.20849000",
+              "longitude": "16.37208000"
+          }
+      ]
+  },
+  {
+      "id": 28,
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe",
+      "iso3": "BA ",
+      "capital": "Sarajevo",
+      "cities": [
+          {
+              "id": 8380,
+              "name": "Sarajevo",
+              "countryCode": "BA",
+              "latitude": "43.84864000",
+              "longitude": "18.35644000"
+          }
+      ]
+  },
+  {
+      "id": 22,
+      "name": "Belgium",
+      "region": "Europe",
+      "iso3": "BE ",
+      "capital": "Brussels",
+      "cities": [
+          {
+              "id": 8693,
+              "name": "Brussels",
+              "countryCode": "BE",
+              "latitude": "50.85045000",
+              "longitude": "4.34878000"
+          }
+      ]
+  },
+  {
+      "id": 34,
+      "name": "Bulgaria",
+      "region": "Europe",
+      "iso3": "BG ",
+      "capital": "Sofia",
+      "cities": [
+          {
+              "id": 9701,
+              "name": "Sofia",
+              "countryCode": "BG",
+              "latitude": "42.69751000",
+              "longitude": "23.32415000"
+          }
+      ]
+  },
+  {
+      "id": 21,
+      "name": "Belarus",
+      "region": "Europe",
+      "iso3": "BY ",
+      "capital": "Minsk",
+      "cities": [
+          {
+              "id": 15989,
+              "name": "Minsk",
+              "countryCode": "BY",
+              "latitude": "53.90000000",
+              "longitude": "27.56667000"
+          }
+      ]
+  },
+  {
+      "id": 214,
+      "name": "Switzerland",
+      "region": "Europe",
+      "iso3": "CH ",
+      "capital": "Bern",
+      "cities": [
+          {
+              "id": 17462,
+              "name": "Bern",
+              "countryCode": "CH",
+              "latitude": "46.94809000",
+              "longitude": "7.44744000"
+          }
+      ]
+  },
+  {
+      "id": 57,
+      "name": "Cyprus",
+      "region": "Europe",
+      "iso3": "CY ",
+      "capital": "Nicosia",
+      "cities": [
+          {
+              "id": 22069,
+              "name": "Nicosia",
+              "countryCode": "CY",
+              "latitude": "35.17531000",
+              "longitude": "33.36420000"
+          }
+      ]
+  },
+  {
+      "id": 58,
+      "name": "Czech Republic",
+      "region": "Europe",
+      "iso3": "CZ ",
+      "capital": "Prague",
+      "cities": [
+          {
+              "id": 22970,
+              "name": "Prague",
+              "countryCode": "CZ",
+              "latitude": "50.08804000",
+              "longitude": "14.42076000"
+          }
+      ]
+  },
+  {
+      "id": 82,
+      "name": "Germany",
+      "region": "Europe",
+      "iso3": "DE ",
+      "capital": "Berlin",
+      "cities": [
+          {
+              "id": 24053,
+              "name": "Berlin",
+              "countryCode": "DE",
+              "latitude": "52.52437000",
+              "longitude": "13.41053000"
+          }
+      ]
+  },
+  {
+      "id": 59,
+      "name": "Denmark",
+      "region": "Europe",
+      "iso3": "DK ",
+      "capital": "Copenhagen",
+      "cities": [
+          {
+              "id": 30620,
+              "name": "Copenhagen",
+              "countryCode": "DK",
+              "latitude": "55.67594000",
+              "longitude": "12.56553000"
+          }
+      ]
+  },
+  {
+      "id": 69,
+      "name": "Estonia",
+      "region": "Europe",
+      "iso3": "EE ",
+      "capital": "Tallinn",
+      "cities": [
+          {
+              "id": 31716,
+              "name": "Tallinn",
+              "countryCode": "EE",
+              "latitude": "59.43696000",
+              "longitude": "24.75353000"
+          }
+      ]
+  },
+  {
+      "id": 207,
+      "name": "Spain",
+      "region": "Europe",
+      "iso3": "ES ",
+      "capital": "Madrid",
+      "cities": [
+          {
+              "id": 35186,
+              "name": "Madrid",
+              "countryCode": "ES",
+              "latitude": "40.41650000",
+              "longitude": "-3.70256000"
+          }
+      ]
+  },
+  {
+      "id": 74,
+      "name": "Finland",
+      "region": "Europe",
+      "iso3": "FI ",
+      "capital": "Helsinki",
+      "cities": [
+          {
+              "id": 38770,
+              "name": "Helsinki",
+              "countryCode": "FI",
+              "latitude": "60.16952000",
+              "longitude": "24.93545000"
+          }
+      ]
+  },
+  {
+      "id": 75,
+      "name": "France",
+      "region": "Europe",
+      "iso3": "FR ",
+      "capital": "Paris",
+      "cities": [
+          {
+              "id": 44856,
+              "name": "Paris",
+              "countryCode": "FR",
+              "latitude": "48.85340000",
+              "longitude": "2.34860000"
+          }
+      ]
+  },
+  {
+      "id": 232,
+      "name": "United Kingdom",
+      "region": "Europe",
+      "iso3": "GB ",
+      "capital": "London",
+      "cities": [
+          {
+              "id": 50388,
+              "name": "London",
+              "countryCode": "GB",
+              "latitude": "51.50853000",
+              "longitude": "-0.12574000"
+          }
+      ]
+  },
+  {
+      "id": 85,
+      "name": "Greece",
+      "region": "Europe",
+      "iso3": "GR ",
+      "capital": "Athens",
+      "cities": [
+          {
+              "id": 52515,
+              "name": "Athens",
+              "countryCode": "GR",
+              "latitude": "37.98376000",
+              "longitude": "23.72784000"
+          }
+      ]
+  },
+  {
+      "id": 55,
+      "name": "Croatia",
+      "region": "Europe",
+      "iso3": "HR ",
+      "capital": "Zagreb",
+      "cities": [
+          {
+              "id": 55004,
+              "name": "Zagreb",
+              "countryCode": "HR",
+              "latitude": "45.81444000",
+              "longitude": "15.97798000"
+          }
+      ]
+  },
+  {
+      "id": 99,
+      "name": "Hungary",
+      "region": "Europe",
+      "iso3": "HU ",
+      "capital": "Budapest",
+      "cities": [
+          {
+              "id": 55263,
+              "name": "Budapest",
+              "countryCode": "HU",
+              "latitude": "47.49835000",
+              "longitude": "19.04045000"
+          }
+      ]
+  },
+  {
+      "id": 105,
+      "name": "Ireland",
+      "region": "Europe",
+      "iso3": "IE ",
+      "capital": "Dublin",
+      "cities": [
+          {
+              "id": 57223,
+              "name": "Dublin",
+              "countryCode": "IE",
+              "latitude": "53.33306000",
+              "longitude": "-6.24889000"
+          }
+      ]
+  },
+  {
+      "id": 107,
+      "name": "Italy",
+      "region": "Europe",
+      "iso3": "IT ",
+      "capital": "Rome",
+      "cities": [
+          {
+              "id": 59582,
+              "name": "Rome",
+              "countryCode": "IT",
+              "latitude": "41.89193000",
+              "longitude": "12.51133000"
+          }
+      ]
+  },
+  {
+      "id": 125,
+      "name": "Liechtenstein",
+      "region": "Europe",
+      "iso3": "LI ",
+      "capital": "Vaduz",
+      "cities": [
+          {
+              "id": 66447,
+              "name": "Vaduz",
+              "countryCode": "LI",
+              "latitude": "47.14151000",
+              "longitude": "9.52154000"
+          }
+      ]
+  },
+  {
+      "id": 126,
+      "name": "Lithuania",
+      "region": "Europe",
+      "iso3": "LT ",
+      "capital": "Vilnius",
+      "cities": [
+          {
+              "id": 66703,
+              "name": "Vilnius",
+              "countryCode": "LT",
+              "latitude": "54.68916000",
+              "longitude": "25.27980000"
+          }
+      ]
+  },
+  {
+      "id": 127,
+      "name": "Luxembourg",
+      "region": "Europe",
+      "iso3": "LU ",
+      "capital": "Luxembourg",
+      "cities": [
+          {
+              "id": 66801,
+              "name": "Luxembourg",
+              "countryCode": "LU",
+              "latitude": "49.61167000",
+              "longitude": "6.13000000"
+          }
+      ]
+  },
+  {
+      "id": 120,
+      "name": "Latvia",
+      "region": "Europe",
+      "iso3": "LV ",
+      "capital": "Riga",
+      "cities": [
+          {
+              "id": 66948,
+              "name": "Riga",
+              "countryCode": "LV",
+              "latitude": "56.94600000",
+              "longitude": "24.10589000"
+          }
+      ]
+  },
+  {
+      "id": 144,
+      "name": "Moldova",
+      "region": "Europe",
+      "iso3": "MD ",
+      "capital": "Chisinau",
+      "cities": [
+          {
+              "id": 67285,
+              "name": "Chisinau",
+              "countryCode": "MD",
+              "latitude": "47.00556000",
+              "longitude": "28.85750000"
+          }
+      ]
+  },
+  {
+      "id": 147,
+      "name": "Montenegro",
+      "region": "Europe",
+      "iso3": "ME ",
+      "capital": "Podgorica",
+      "cities": [
+          {
+              "id": 67364,
+              "name": "Podgorica",
+              "countryCode": "ME",
+              "latitude": "42.44111000",
+              "longitude": "19.26361000"
+          }
+      ]
+  },
+  {
+      "id": 129,
+      "name": "Macedonia",
+      "region": "Europe",
+      "iso3": "MK ",
+      "capital": "Skopje",
+      "cities": [
+          {
+              "id": 67526,
+              "name": "Skopje",
+              "countryCode": "MK",
+              "latitude": "41.99646000",
+              "longitude": "21.43141000"
+          }
+      ]
+  },
+  {
+      "id": 135,
+      "name": "Malta",
+      "region": "Europe",
+      "iso3": "MT ",
+      "capital": "Valletta",
+      "cities": [
+          {
+              "id": 67815,
+              "name": "Valletta",
+              "countryCode": "MT",
+              "latitude": "35.89972000",
+              "longitude": "14.51472000"
+          }
+      ]
+  },
+  {
+      "id": 156,
+      "name": "Netherlands",
+      "region": "Europe",
+      "iso3": "NL ",
+      "capital": "Amsterdam",
+      "cities": [
+          {
+              "id": 77340,
+              "name": "Amsterdam",
+              "countryCode": "NL",
+              "latitude": "52.37403000",
+              "longitude": "4.88969000"
+          }
+      ]
+  },
+  {
+      "id": 165,
+      "name": "Norway",
+      "region": "Europe",
+      "iso3": "NO ",
+      "capital": "Oslo",
+      "cities": [
+          {
+              "id": 79425,
+              "name": "Oslo",
+              "countryCode": "NO",
+              "latitude": "59.91273000",
+              "longitude": "10.74609000"
+          }
+      ]
+  },
+  {
+      "id": 176,
+      "name": "Poland",
+      "region": "Europe",
+      "iso3": "PL ",
+      "capital": "Warsaw",
+      "cities": [
+          {
+              "id": 88480,
+              "name": "Warsaw",
+              "countryCode": "PL",
+              "latitude": "52.22977000",
+              "longitude": "21.01178000"
+          }
+      ]
+  },
+  {
+      "id": 177,
+      "name": "Portugal",
+      "region": "Europe",
+      "iso3": "PT ",
+      "capital": "Lisbon",
+      "cities": [
+          {
+              "id": 143446,
+              "name": "Lisbon",
+              "countryCode": "PT",
+              "latitude": "38.71666667",
+              "longitude": "-9.16666667"
+          }
+      ]
+  },
+  {
+      "id": 181,
+      "name": "Romania",
+      "region": "Europe",
+      "iso3": "RO ",
+      "capital": "Bucharest",
+      "cities": [
+          {
+              "id": 90347,
+              "name": "Bucharest",
+              "countryCode": "RO",
+              "latitude": "44.43225000",
+              "longitude": "26.10626000"
+          }
+      ]
+  },
+  {
+      "id": 196,
+      "name": "Serbia",
+      "region": "Europe",
+      "iso3": "RS ",
+      "capital": "Belgrade",
+      "cities": [
+          {
+              "id": 97170,
+              "name": "Belgrade",
+              "countryCode": "RS",
+              "latitude": "44.80401000",
+              "longitude": "20.46513000"
+          }
+      ]
+  },
+  {
+      "id": 213,
+      "name": "Sweden",
+      "region": "Europe",
+      "iso3": "SE ",
+      "capital": "Stockholm",
+      "cities": [
+          {
+              "id": 103758,
+              "name": "Stockholm",
+              "countryCode": "SE",
+              "latitude": "59.33258000",
+              "longitude": "18.06490000"
+          }
+      ]
+  },
+  {
+      "id": 201,
+      "name": "Slovenia",
+      "region": "Europe",
+      "iso3": "SI ",
+      "capital": "Ljubljana",
+      "cities": [
+          {
+              "id": 104169,
+              "name": "Ljubljana",
+              "countryCode": "SI",
+              "latitude": "46.05108000",
+              "longitude": "14.50513000"
+          }
+      ]
+  },
+  {
+      "id": 200,
+      "name": "Slovakia",
+      "region": "Europe",
+      "iso3": "SK ",
+      "capital": "Bratislava",
+      "cities": [
+          {
+              "id": 104374,
+              "name": "Bratislava",
+              "countryCode": "SK",
+              "latitude": "48.14816000",
+              "longitude": "17.10674000"
+          }
+      ]
+  },
+  {
+      "id": 192,
+      "name": "San Marino",
+      "region": "Europe",
+      "iso3": "SM ",
+      "capital": "San Marino",
+      "cities": [
+          {
+              "id": 104700,
+              "name": "San Marino",
+              "countryCode": "SM",
+              "latitude": "43.93667000",
+              "longitude": "12.44639000"
+          }
+      ]
+  },
+  {
+      "id": 230,
+      "name": "Ukraine",
+      "region": "Europe",
+      "iso3": "UA ",
+      "capital": "Kyiv",
+      "cities": [
+          {
+              "id": 109897,
+              "name": "Kyiv",
+              "countryCode": "UA",
+              "latitude": "50.45466000",
+              "longitude": "30.52380000"
+          }
+      ]
+  }
+]

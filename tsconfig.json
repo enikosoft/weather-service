@@ -1,0 +1,41 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017", "esnext.asynciterable"],
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "baseUrl": "app",
+    "paths": {
+      "@app/*": ["*"],
+      "@components/*": ["components/*"],
+      "@config/*": ["config/*"],
+      "@database/*": ["database/*"],
+      "@exceptions/*": ["exceptions/*"],
+      "@loaders/*": ["loaders/*"],
+      "@middlewares/*": ["middlewares/*"],
+
+      "@types/*": ["types/*"],
+
+      "@routes/*": ["routes/*"],  
+      "@utils/*": ["utils/*"],
+      "@events/*": ["events/*"]
+    }
+  },
+  "include": ["app/**/*.ts", "app/**/*.json", ".env"],
+  "exclude": ["node_modules", "app/http", "app/logs", "app/tests"]
+}
