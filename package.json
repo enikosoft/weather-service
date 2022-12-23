@@ -6,7 +6,6 @@
   "scripts": {
     "build:tsc": "tsc && tsc-alias",
     "start": "npm run build:tsc && cross-env NODE_ENV=production node dist/server.js",
-
     "migrate:latest": "knex --knexfile app/config/knex.ts migrate:latest",
     "migrate:rollback": "knex --knexfile app/config/knex.ts migrate:rollback",
     "knex:seeds": "knex --knexfile app/config/knex.ts seed:run",

@@ -26,7 +26,7 @@ exports.up = async function (knex: Knex) {
 };
 
 exports.down = async function (knex: Knex) {
-  await knex.raw(`DROP TYPE city_request_type IF EXIST;`);
+  await knex.schema.dropTable('cities_query_log');
 
-  return knex.schema.dropTable('cities_query_log');
+  return knex.raw(`DROP TYPE city_request_type;`);
 };
