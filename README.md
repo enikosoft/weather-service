@@ -31,6 +31,11 @@ npm start:watch
 ```
 It uses nodemon for livereloading👆
 
+Testing
+
+```
+npm test
+```
 
 ### Need to implement:
 - [ ] Add Swagger
