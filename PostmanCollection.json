@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "35a38d65-d878-43fc-8f7b-c1d17dc29574",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22237977"
+	},
+	"item": [
+		{
+			"name": "Get Available Cities 503",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/cities",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cities"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Available Cities 200",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/cities?onlyCapitals=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"cities"
+					],
+					"query": [
+						{
+							"key": "onlyCapitals",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city with start and end date 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/daily?startDate=2022-12-15&endDate=2022-12-22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2022-12-15"
+						},
+						{
+							"key": "endDate",
+							"value": "2022-12-22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city with exact date 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/daily?date=2022-12-15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2022-12-15"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city with period 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/daily?period=today",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "period",
+							"value": "today"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city Yesterday 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/daily?period=yesterday",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "period",
+							"value": "yesterday"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city with period 400",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/daily?period=toda2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "period",
+							"value": "toda2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get average temperature with period 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/averageTemperature?startDate=2022-12-15&endDate=2022-12-22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"averageTemperature"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2022-12-15"
+						},
+						{
+							"key": "endDate",
+							"value": "2022-12-22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get most Requested Cities 200",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/weather/mostRequestedCity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"mostRequestedCity"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get daily weather for city with start and end date 200 Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/weather/cities/2/timeline",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"weather",
+						"cities",
+						"2",
+						"timeline"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
