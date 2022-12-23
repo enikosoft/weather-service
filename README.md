@@ -16,12 +16,12 @@ The first time, you will need to run
 npm install
 ```
 
-After run megrations and seeds files. Before paste correct data in *.env* file. Test WEATHER_API_KEY you should ro find in *testWeatherApiKeys.txt*
+After run megrations and seeds files. Before paste correct data in *.env* file. Test WEATHER_API_KEY you should to find in *testWeatherApiKeys.txt*
 
 ```
-migrate:latest
+npm run migrate:latest
 
-knex:seeds
+npm run knex:seeds
 ```
 
 Then just start the server with
